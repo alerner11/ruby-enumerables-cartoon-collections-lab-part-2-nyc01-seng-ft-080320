@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.find do |element| # for each element in array of calls passed to this method
     valid_calls.find do |call| # for each element in array of valid calls 
-      element == call # check if the element passed equals the valid call
+      element == call 
     end # above loop finds the first instance where the element passed equals one of the valid calls, if none, moves on to next element 
   end
   
